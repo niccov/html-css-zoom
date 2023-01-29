@@ -31,7 +31,7 @@
 
 .buttons button{
     border-radius: 10px;
-    padding: 10px;
+    padding: 8px;
     border-color: #656565;
     background-color: #656565;
     color: white;  
@@ -52,6 +52,19 @@
 .img{
     width: calc(100% / 7 - 3px);
     height: calc(100% / 5);
+
+    position: relative;
+}
+
+.img span{
+    color: white;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    background-color:rgba(192,192,192,0.6);
+    padding: 2px;
 }
 
 .container-footer{
@@ -86,6 +99,7 @@
 
 .mic p{
     color: white;
+    margin-top: 10px;
 }
 /* video */
 .video{
@@ -99,6 +113,7 @@
 }
 
 .video p{
+    margin-top: 10px;
     color: white;
 }
 /* /footer-left */
@@ -128,6 +143,11 @@
 .items p{
     font-size: 15px;
     color: white;
+}
+
+.fa-solid.fa-share-from-square{
+    display: inline-block;
+    color: green;
 }
 
 
