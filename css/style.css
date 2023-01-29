@@ -17,7 +17,42 @@
     background-color: black;
 }
 
+.top-right-commands{
+    height: 40px;
 
+    position: relative;
+}
+
+.buttons{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.buttons button{
+    border-radius: 10px;
+    padding: 10px;
+    border-color: #656565;
+    background-color: #656565;
+    color: white;  
+    
+}
+
+.container-photo{
+    height: calc(100% - 100px);
+
+    margin: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    
+}
+
+.img{
+    width: calc(100% / 7 - 3px);
+    height: calc(100% / 5);
+}
 
 .container-footer{
     height: 80px;
@@ -36,8 +71,6 @@
     justify-content: space-around;
     align-content: center;
     flex-wrap: wrap;
-
-    background-color: red;
 }
 /* mic */
 .mic{
